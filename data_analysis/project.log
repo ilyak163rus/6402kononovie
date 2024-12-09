@@ -1,0 +1,88 @@
+2024-12-10 00:30:52,428 - main - WARNING - Создание сервиса мониторинга для ключевого слова 'Python'
+2024-12-10 00:30:52,429 - main - WARNING - Создание сервиса мониторинга для ключевого слова 'Java'
+2024-12-10 00:30:52,429 - main - WARNING - Запуск сервиса мониторинга для 'Python'
+2024-12-10 00:30:52,429 - monitoring_service - WARNING - Запуск мониторинг сервиса для ['Python']
+2024-12-10 00:30:52,429 - monitoring_service - WARNING - Запуск мониторинг сервиса для ['Python']
+2024-12-10 00:30:52,429 - main - WARNING - Запуск сервиса мониторинга для 'Java'
+2024-12-10 00:30:52,429 - monitoring_service - WARNING - Запуск мониторинг сервиса для ['Java']
+2024-12-10 00:30:52,429 - monitoring_service - WARNING - Запуск мониторинг сервиса для ['Java']
+2024-12-10 00:30:52,937 - monitoring_service - WARNING - Запуск цикла получения и анализа данных для ['Java']
+2024-12-10 00:30:52,937 - monitoring_service - WARNING - Запуск цикла получения и анализа данных для ['Java']
+2024-12-10 00:30:52,937 - data_retrieval - WARNING - Получение данных для ['Java'] за период now 1-H
+2024-12-10 00:30:52,937 - data_retrieval - WARNING - Получение данных для ['Java'] за период now 1-H
+2024-12-10 00:30:52,952 - monitoring_service - WARNING - Запуск цикла получения и анализа данных для ['Python']
+2024-12-10 00:30:52,952 - monitoring_service - WARNING - Запуск цикла получения и анализа данных для ['Python']
+2024-12-10 00:30:52,952 - data_retrieval - WARNING - Получение данных для ['Python'] за период now 1-H
+2024-12-10 00:30:52,952 - data_retrieval - WARNING - Получение данных для ['Python'] за период now 1-H
+2024-12-10 00:30:53,778 - analysis - WARNING - Выполнение full_analysis с аргументами (<data_retrieval.analysis.TrendAnalysis object at 0x000002220243D340>, 'results_java.xlsx'), {}
+2024-12-10 00:30:53,778 - analysis - WARNING - Выполнение full_analysis с аргументами (<data_retrieval.analysis.TrendAnalysis object at 0x000002220243D340>, 'results_java.xlsx'), {}
+2024-12-10 00:30:53,778 - analysis - WARNING - Выполнение moving_average с аргументами (<data_retrieval.analysis.TrendAnalysis object at 0x000002220243D340>,), {}
+2024-12-10 00:30:53,778 - analysis - WARNING - Выполнение moving_average с аргументами (<data_retrieval.analysis.TrendAnalysis object at 0x000002220243D340>,), {}
+2024-12-10 00:30:53,778 - analysis - WARNING - moving_average выполнена за 0.0000 секунд
+2024-12-10 00:30:53,778 - analysis - WARNING - moving_average выполнена за 0.0000 секунд
+2024-12-10 00:30:53,778 - analysis - WARNING - moving_average завершена
+2024-12-10 00:30:53,778 - analysis - WARNING - moving_average завершена
+2024-12-10 00:30:53,778 - analysis - WARNING - Выполнение differentiate с аргументами (<data_retrieval.analysis.TrendAnalysis object at 0x000002220243D340>,), {}
+2024-12-10 00:30:53,778 - analysis - WARNING - Выполнение differentiate с аргументами (<data_retrieval.analysis.TrendAnalysis object at 0x000002220243D340>,), {}
+2024-12-10 00:30:53,778 - analysis - WARNING - differentiate выполнена за 0.0000 секунд
+2024-12-10 00:30:53,778 - analysis - WARNING - differentiate выполнена за 0.0000 секунд
+2024-12-10 00:30:53,778 - analysis - WARNING - differentiate завершена
+2024-12-10 00:30:53,778 - analysis - WARNING - differentiate завершена
+2024-12-10 00:30:53,778 - analysis - WARNING - Выполнение find_extrema с аргументами (<data_retrieval.analysis.TrendAnalysis object at 0x000002220243D340>,), {}
+2024-12-10 00:30:53,778 - analysis - WARNING - Выполнение find_extrema с аргументами (<data_retrieval.analysis.TrendAnalysis object at 0x000002220243D340>,), {}
+2024-12-10 00:30:53,778 - analysis - WARNING - find_extrema выполнена за 0.0000 секунд
+2024-12-10 00:30:53,778 - analysis - WARNING - find_extrema выполнена за 0.0000 секунд
+2024-12-10 00:30:53,778 - analysis - WARNING - find_extrema завершена
+2024-12-10 00:30:53,778 - analysis - WARNING - find_extrema завершена
+2024-12-10 00:30:53,778 - analysis - WARNING - Выполнение autocorrelation с аргументами (<data_retrieval.analysis.TrendAnalysis object at 0x000002220243D340>,), {}
+2024-12-10 00:30:53,778 - analysis - WARNING - Выполнение autocorrelation с аргументами (<data_retrieval.analysis.TrendAnalysis object at 0x000002220243D340>,), {}
+2024-12-10 00:30:53,778 - analysis - WARNING - autocorrelation выполнена за 0.0000 секунд
+2024-12-10 00:30:53,778 - analysis - WARNING - autocorrelation выполнена за 0.0000 секунд
+2024-12-10 00:30:53,778 - analysis - WARNING - autocorrelation завершена
+2024-12-10 00:30:53,778 - analysis - WARNING - autocorrelation завершена
+2024-12-10 00:30:53,778 - analysis - WARNING - Выполнение export_to_excel с аргументами (<data_retrieval.analysis.TrendAnalysis object at 0x000002220243D340>, 'results_java.xlsx'), {}
+2024-12-10 00:30:53,778 - analysis - WARNING - Выполнение export_to_excel с аргументами (<data_retrieval.analysis.TrendAnalysis object at 0x000002220243D340>, 'results_java.xlsx'), {}
+2024-12-10 00:30:54,014 - analysis - WARNING - export_to_excel выполнена за 0.2362 секунд
+2024-12-10 00:30:54,014 - analysis - WARNING - export_to_excel выполнена за 0.2362 секунд
+2024-12-10 00:30:54,014 - analysis - WARNING - export_to_excel завершена
+2024-12-10 00:30:54,014 - analysis - WARNING - export_to_excel завершена
+2024-12-10 00:30:54,014 - analysis - WARNING - full_analysis выполнена за 0.2362 секунд
+2024-12-10 00:30:54,014 - analysis - WARNING - full_analysis выполнена за 0.2362 секунд
+2024-12-10 00:30:54,014 - analysis - WARNING - full_analysis завершена
+2024-12-10 00:30:54,014 - analysis - WARNING - full_analysis завершена
+2024-12-10 00:30:54,883 - analysis - WARNING - Выполнение full_analysis с аргументами (<data_retrieval.analysis.TrendAnalysis object at 0x0000022202B130A0>, 'results_python.xlsx'), {}
+2024-12-10 00:30:54,883 - analysis - WARNING - Выполнение full_analysis с аргументами (<data_retrieval.analysis.TrendAnalysis object at 0x0000022202B130A0>, 'results_python.xlsx'), {}
+2024-12-10 00:30:54,883 - analysis - WARNING - Выполнение moving_average с аргументами (<data_retrieval.analysis.TrendAnalysis object at 0x0000022202B130A0>,), {}
+2024-12-10 00:30:54,883 - analysis - WARNING - Выполнение moving_average с аргументами (<data_retrieval.analysis.TrendAnalysis object at 0x0000022202B130A0>,), {}
+2024-12-10 00:30:54,884 - analysis - WARNING - moving_average выполнена за 0.0000 секунд
+2024-12-10 00:30:54,884 - analysis - WARNING - moving_average выполнена за 0.0000 секунд
+2024-12-10 00:30:54,884 - analysis - WARNING - moving_average завершена
+2024-12-10 00:30:54,884 - analysis - WARNING - moving_average завершена
+2024-12-10 00:30:54,884 - analysis - WARNING - Выполнение differentiate с аргументами (<data_retrieval.analysis.TrendAnalysis object at 0x0000022202B130A0>,), {}
+2024-12-10 00:30:54,884 - analysis - WARNING - Выполнение differentiate с аргументами (<data_retrieval.analysis.TrendAnalysis object at 0x0000022202B130A0>,), {}
+2024-12-10 00:30:54,884 - analysis - WARNING - differentiate выполнена за 0.0000 секунд
+2024-12-10 00:30:54,884 - analysis - WARNING - differentiate выполнена за 0.0000 секунд
+2024-12-10 00:30:54,884 - analysis - WARNING - differentiate завершена
+2024-12-10 00:30:54,884 - analysis - WARNING - differentiate завершена
+2024-12-10 00:30:54,884 - analysis - WARNING - Выполнение find_extrema с аргументами (<data_retrieval.analysis.TrendAnalysis object at 0x0000022202B130A0>,), {}
+2024-12-10 00:30:54,884 - analysis - WARNING - Выполнение find_extrema с аргументами (<data_retrieval.analysis.TrendAnalysis object at 0x0000022202B130A0>,), {}
+2024-12-10 00:30:54,885 - analysis - WARNING - find_extrema выполнена за 0.0010 секунд
+2024-12-10 00:30:54,885 - analysis - WARNING - find_extrema выполнена за 0.0010 секунд
+2024-12-10 00:30:54,885 - analysis - WARNING - find_extrema завершена
+2024-12-10 00:30:54,885 - analysis - WARNING - find_extrema завершена
+2024-12-10 00:30:54,885 - analysis - WARNING - Выполнение autocorrelation с аргументами (<data_retrieval.analysis.TrendAnalysis object at 0x0000022202B130A0>,), {}
+2024-12-10 00:30:54,885 - analysis - WARNING - Выполнение autocorrelation с аргументами (<data_retrieval.analysis.TrendAnalysis object at 0x0000022202B130A0>,), {}
+2024-12-10 00:30:54,886 - analysis - WARNING - autocorrelation выполнена за 0.0003 секунд
+2024-12-10 00:30:54,886 - analysis - WARNING - autocorrelation выполнена за 0.0003 секунд
+2024-12-10 00:30:54,886 - analysis - WARNING - autocorrelation завершена
+2024-12-10 00:30:54,886 - analysis - WARNING - autocorrelation завершена
+2024-12-10 00:30:54,886 - analysis - WARNING - Выполнение export_to_excel с аргументами (<data_retrieval.analysis.TrendAnalysis object at 0x0000022202B130A0>, 'results_python.xlsx'), {}
+2024-12-10 00:30:54,886 - analysis - WARNING - Выполнение export_to_excel с аргументами (<data_retrieval.analysis.TrendAnalysis object at 0x0000022202B130A0>, 'results_python.xlsx'), {}
+2024-12-10 00:30:54,904 - analysis - WARNING - export_to_excel выполнена за 0.0176 секунд
+2024-12-10 00:30:54,904 - analysis - WARNING - export_to_excel выполнена за 0.0176 секунд
+2024-12-10 00:30:54,904 - analysis - WARNING - export_to_excel завершена
+2024-12-10 00:30:54,904 - analysis - WARNING - export_to_excel завершена
+2024-12-10 00:30:54,905 - analysis - WARNING - full_analysis выполнена за 0.0216 секунд
+2024-12-10 00:30:54,905 - analysis - WARNING - full_analysis выполнена за 0.0216 секунд
+2024-12-10 00:30:54,905 - analysis - WARNING - full_analysis завершена
+2024-12-10 00:30:54,905 - analysis - WARNING - full_analysis завершена
